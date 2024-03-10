@@ -1,0 +1,7 @@
+{
+    "editor.quickSuggestionsDelay": 1,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "emmet.useInlineCompletions": true,
+    "emmet.showExpandedAbbreviation": "never",
+    "emmet.triggerExpansionOnTab": true
+}
