@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AddProduct = () => {
+    const navigate = useNavigate();
     const [name, setName] = useState('');
     const [price, setPrice] = useState('');
     const [category, setCategory] = useState('');
@@ -25,6 +27,7 @@ const AddProduct = () => {
             }
         });
         result = await result.json();
+        navigate('/')
         console.log(result);
     }
 
